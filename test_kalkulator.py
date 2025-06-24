@@ -2,6 +2,6 @@ import kalkulator
 import pytest
 
 def test_sabiranje():
-    ocekivano = 6
+    ocekivano = 5
     dobijeno = kalkulator.saberi(2, 3)
     assert ocekivano == dobijeno 
